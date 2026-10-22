@@ -1,9 +1,9 @@
 cask "folveo" do
   arch arm: "arm64", intel: "intel"
 
-  version "1.14.0"
-  sha256 arm:   "11a37d43a85012daf85e478fee0a112f453e5c37418ffbeef349eda59f38bb78",
-         intel: "418ce435495479b87aa9bb5b71ee746d79ea9f8903380969210d6c04691e0236"
+  version "1.15.0"
+  sha256 arm:   "598142a8702d25ba8981aa9ac8e61e5d3ed96df7171ec62fe4c75b676d67c870",
+         intel: "9d751b3a182b0b3c4830fac51aca7d982843242be47e8aede4a7a08b826eacc1"
 
   url "https://dl.folveo.app/Folveo-#{version}-#{arch}.dmg"
   name "Folveo"
